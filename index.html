@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- meta -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=3.0">
+		<meta name="author" content="Jaime Alonso Fernández">
+		<!-- title -->
+		<title>Iconograf&iacute;a</title>
+		<!-- app style sheet-->
+		<link rel="stylesheet" type="text/css" href="css/app.css">
+		<!-- fonts style sheet -->
+		<style id="fontRules" type="text/css">
+			@font-face {
+				font-family: 'iconosGeneral';
+				font-style: normal;
+				src: url("fonts/iconosGeneral-font.woff") format("woff");
+			}
+			.iconosGeneral {
+				display: inline-block;
+				font-family: 'iconosGeneral';
+				font-size: 4rem;
+				font-style: normal;
+				font-weight: normal;
+				margin: 20px;
+				width: 40px;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<span>Iconografía</span>
+			<span>general</span>
+			<span>rrhh-internacional | area personal</span>
+		</div>
+		<div class="content-wrapper">
+			<div id="content">
+				<div id="info" style="display:none">
+					<div class="className">
+						<span>Class:</span>
+						<span class="classNameValue"></span>
+					</div>
+					<div class="codePoint">
+						<span class="">Code point:</span>
+						<span class="codePointValue"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer" class="">Jaime Alonso Fern&aacute;ndez</div>
+		<!-- icon array (update when new icons are created) -->
+		<script type="text/javascript" src="js/arrayIcons.js"></script>
+		<!-- jquery script  -->
+		<script type="text/javascript" src="js/lib/jquery.min.js"></script>
+		<!-- application script -->
+		<script type="text/javascript" src="js/app.js"></script>
+	</body>
+</html>

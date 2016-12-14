@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300');
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Comfortaa';
+  margin: 0px;
+  font-size: 1.6rem;
+}
+
+.codePoint {
+  float: right;
+}
+#content {
+  display:block;
+  margin: 5px auto;
+  width: 800px;
+  height: 100%;
+}
+
+.content-wrapper {
+  position: fixed;
+  top: 68px;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+#header {
+  display: block;
+  font-size: 2rem;
+  margin: 0px auto;
+  height: 68px;
+  line-height: 68px;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(55,56,60,0.0980392);
+}
+
+#footer {
+  line-height: 30px;
+  text-align: center;
+  height: 30px;
+  border-top: 1px solid rgba(55,56,60,0.0980392);
+}
+
+#info {
+  border-top: 1px solid #b44c3f;
+  padding-top: 5px;
+}
+#info > div {
+  padding: 5px;
+}
+#info div span:first-child {
+  color: #b44c3f;
+}
+
+#header,#footer {
+  background-color: #FFF;
+  z-index: 100;
+}
+
+.className, .codePoint {
+  display: inline-block;
+}
+
+.iconosGeneral:hover {
+  color: #b44c3f;
+  cursor: pointer;
+}
